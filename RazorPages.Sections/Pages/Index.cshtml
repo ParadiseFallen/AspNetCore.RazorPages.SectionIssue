@@ -1,0 +1,22 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Mvc.Razor
+@namespace RazorPages.Sections.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "_Layout";
+}
+
+
+<partial name="./_Partial" />
+<h3>Index</h3>
+<partial name="./_Partial" />
+
+
+@section Scripts 
+{
+    <div>
+        <h1>Scripts loaded</h1>
+    </div>
+}
